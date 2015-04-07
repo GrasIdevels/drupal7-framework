@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Hero Space content type feature.
+ */
+
+include_once 'marquettelaw_hero_space_content_type.features.inc';

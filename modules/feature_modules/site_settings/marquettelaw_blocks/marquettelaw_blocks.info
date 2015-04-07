@@ -1,0 +1,8 @@
+name = Blocks
+core = 7.x
+package = Site settings
+dependencies[] = fe_block
+features[fe_block_settings][] = system-management
+features[fe_block_settings][] = system-navigation
+features[features_api][] = api:2
+project path = sites/all/modules/custom/features/site_settings

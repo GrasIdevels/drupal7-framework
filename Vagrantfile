@@ -2,8 +2,8 @@ Vagrant.configure("2") do |config|
 
   # tunables
   env_prefix  = ENV['DRUPAL_VAGRANT_ENV_PREFIX'] || 'DRUPAL_VAGRANT'
-  ip          = ENV["#{env_prefix}_IP"] || '10.33.36.11'
-  project     = ENV["#{env_prefix}_PROJECT"] || 'drupalproject'
+  ip          = ENV["#{env_prefix}_IP"] || '10.33.36.15'
+  project     = ENV["#{env_prefix}_PROJECT"] || 'marquettelaw'
   # end tunables
 
   config.vm.box     = "promet_wheezy"

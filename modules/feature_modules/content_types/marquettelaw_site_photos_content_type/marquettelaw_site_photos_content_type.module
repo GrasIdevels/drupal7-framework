@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Site Photos content type feature.
+ */
+
+include_once 'marquettelaw_site_photos_content_type.features.inc';

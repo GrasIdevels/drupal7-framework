@@ -1,0 +1,11 @@
+name = Vocabularies
+core = 7.x
+package = Site settings
+dependencies[] = features
+dependencies[] = taxonomy
+features[features_api][] = api:2
+features[taxonomy][] = argument_category
+features[taxonomy][] = grouping_category
+features[taxonomy][] = news_event_categories
+features[taxonomy][] = site_sections
+project path = sites/all/modules/custom/features/site_settings
